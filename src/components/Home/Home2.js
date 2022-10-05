@@ -19,7 +19,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-             I am physicist who have allways liked to learn by myself, then s*th happended and I discovered tech world, now I live 24/7 in front of a screen
+             I am physicist who have allways liked to learn by myself, then s*th happened and I discovered tech world, now I live 24/7 in front of a screen
               <br />
               <br />I am fluent in classics like
               <i>
