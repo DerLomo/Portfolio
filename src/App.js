@@ -6,7 +6,6 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
-import Particles from 'react-particles-js';
 import {
   BrowserRouter as Router,
   Route,
@@ -33,49 +32,6 @@ function App() {
     <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
-        <Particles
-          style={{
-            position: 'absolute',
-            opacity: "0.3",
-          }}
-          params={{
-            particles: {
-              number: {
-                value: 45,
-                density: {
-                  enable: true,
-                  value_area: 850,
-                },
-              },
-              shape: {
-                type: "circle",
-                stroke: {
-                  width: 1,
-                },
-              },
-              size: {
-                value: 5,
-                random: true,
-                anim: {
-                  enable: true,
-                  speed: 4,
-                  size_min: 0.1,
-                  sync: true,
-                },
-              },
-              opacity: {
-                value: 1,
-                random: true,
-                anim: {
-                  enable: true,
-                  speed: 1,
-                  opacity_min: 0.3,
-                  sync: true,
-                },
-              },
-            },
-          }}
-        />
         <Navbar />
         <ScrollToTop />
         <Routes>
