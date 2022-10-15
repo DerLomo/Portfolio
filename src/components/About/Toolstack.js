@@ -7,6 +7,10 @@ import {
   SiHeroku,
   SiVercel,
 } from "react-icons/si";
+import {
+  FaHardHat,
+  FaAnchor,
+} from "react-icons/fa";
 
 function Toolstack() {
   return (
@@ -18,13 +22,10 @@ function Toolstack() {
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <FaHardHat />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
+        <FaAnchor />
       </Col>
     </Row>
   );
