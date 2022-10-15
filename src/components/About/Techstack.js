@@ -16,7 +16,7 @@ import {
 } from "react-icons/si";
 import {
   FaYarn,
-} from "react-icons/fa;
+} from "react-icons/fa";
 
 function Techstack() {
   return (
