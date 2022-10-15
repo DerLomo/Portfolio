@@ -14,6 +14,9 @@ import {
 import {
   SiNextdotjs,
 } from "react-icons/si";
+import {
+  FaYarn,
+} from "react-icons/fa
 
 function Techstack() {
   return (
@@ -46,7 +49,7 @@ function Techstack() {
         <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
+        <FaYarn />
       </Col>
     </Row>
   );
