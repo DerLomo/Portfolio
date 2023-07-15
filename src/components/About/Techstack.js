@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
+import { SiMongodb } from "react-icons/si";
 import {
   DiJavascript1,
   DiRust,
@@ -9,7 +10,7 @@ import {
   DiPython,
   DiGithubBadge,
   DiTerminal,
-  DiSqllite
+  DiSqllite,
 } from "react-icons/di";
 import {
   SiNextdotjs,
@@ -25,7 +26,7 @@ function Techstack() {
         <DiTerminal />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <SiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />

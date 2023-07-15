@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/logo.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,36 +19,14 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-             I am physicist who have allways liked to learn by myself, then s*th happened and I discovered tech world, now I live 24/7 in front of a screen
+            I'm a graduate in physics, currently studying data analysis and nurturing my skills as a self-taught Web3 developer.
               <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> Javascript, Python and SQL. </b>
-              </i>
+              <br />Recently, I've been using my knowledge as an Open Source Intelligence (OSINT) investigator, leading in data treatment and storage.
               <br />
               <br />
-              My fields of Interest's are building new projects related to 
-              <i>
-                <b className="purple">Smart Contracts &  Defi </b> and
-                also other fields like{" "}
-                <b className="purple">
-                  Deep Learning and Data Science.
-                </b>
-              </i>
+              I am presently working as a freelancer in this field.
               <br />
               <br />
-              Whenever possible, I also apply my passion for building new projects
-              with <b className="purple">Raspberry pi</b> or
-              <i>
-                <b className="purple">
-                  {" "}
-                  AWS
-                </b>
-              </i>
-              &nbsp; to put new ideas 
-              <i>
-                <b className="purple"> to the limits of physic reality</b>
-              </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
